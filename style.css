@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 3000px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    padding-left: 0;
+    padding-bottom: 19px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a {
+    padding: 20px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.active {
+    background-color: greenyellow;
+    color: white;
+}
+
+.active:hover {
+    background-color: greenyellow;
+}
